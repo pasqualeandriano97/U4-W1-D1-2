@@ -14,6 +14,11 @@ public class Esercizio3 {
         System.out.println("Inserisci un numero intero: ");
         int n = scanner.nextInt();
         System.out.println("Il numero " + n + " è pari? " + pari(n));
+        System.out.println("Inserisci la base del triangolo: ");
+        double b = scanner.nextDouble();
+        System.out.println("Inserisci l'altezza del triangolo: ");
+        double h = scanner.nextDouble();
+        System.out.println("L'area del triangolo è: " + area(b, h));
     }
 
 public static double perimeter(double l, double w) {
@@ -27,7 +32,9 @@ public static double perimeter(double l, double w) {
         return 1;
     }
 }
-}
+public static double area(double b,double h) {
+        return (b*h)/2;
+}}
 
 
 
